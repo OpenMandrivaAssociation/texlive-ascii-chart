@@ -1,3 +1,9 @@
+# revision 20536
+# category Package
+# catalog-ctan /info/ascii-chart
+# catalog-date 2010-11-22 13:41:51 +0100
+# catalog-license noinfo
+# catalog-version undef
 Name:		texlive-ascii-chart
 Version:	20101122
 Release:	1
@@ -21,6 +27,7 @@ The document may be converted between Plain TeX and LaTeX
 %files
 %doc %{_texmfdistdir}/doc/support/ascii-chart/ascii.pdf
 %doc %{_texmfdistdir}/doc/support/ascii-chart/ascii.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -31,3 +38,5 @@ The document may be converted between Plain TeX and LaTeX
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
