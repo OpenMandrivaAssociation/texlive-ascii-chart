@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-ascii-chart
 Version:	20101122
-Release:	3
+Release:	4
 Summary:	An ASCII wall chart
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/ascii-chart
