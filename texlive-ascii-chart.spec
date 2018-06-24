@@ -5,7 +5,7 @@
 # catalog-license noinfo
 # catalog-version undef
 Name:		texlive-ascii-chart
-Version:	20170414
+Version:	20180303
 Release:	1
 Summary:	An ASCII wall chart
 Group:		Publishing
