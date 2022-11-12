@@ -5,8 +5,8 @@ Summary:	An ASCII wall chart
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/ascii-chart
 License:	NOINFO
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/ascii-chart.r20536.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/ascii-chart.doc.r20536.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/ascii-chart.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/ascii-chart.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
