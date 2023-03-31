@@ -1,6 +1,6 @@
 Name:		texlive-ascii-chart
 Version:	20536
-Release:	1
+Release:	2
 Summary:	An ASCII wall chart
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/ascii-chart
