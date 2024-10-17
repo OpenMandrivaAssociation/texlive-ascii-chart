@@ -3,7 +3,7 @@ Version:	20536
 Release:	2
 Summary:	An ASCII wall chart
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/info/ascii-chart
+URL:		https://www.ctan.org/tex-archive/info/ascii-chart
 License:	NOINFO
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/ascii-chart.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/ascii-chart.doc.r%{version}.tar.xz
